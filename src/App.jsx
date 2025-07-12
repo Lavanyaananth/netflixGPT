@@ -1,12 +1,10 @@
-import { useState } from "react";
 import "./App.css";
+import Body from "./components/Body";
 
 function App() {
   return (
     <>
-      <p className="font-bold text-2xl text-center p-10">
-        Lets build netflix gpt{" "}
-      </p>
+      <Body></Body>
     </>
   );
 }

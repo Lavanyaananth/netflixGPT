@@ -4,7 +4,12 @@
 - tailwind, postcss dependencies
 - node v20 (downgraded from v21)
 - tailwind, postcss,vite configure files updated
-- added import tailwind to app.css
+- imported tailwind styles to app.css
+
+# Components
+
+- Header
+- login form
 
 # NetflixGPT Features
 
