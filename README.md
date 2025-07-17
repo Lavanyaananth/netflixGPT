@@ -28,6 +28,9 @@
 - Setting up redux store
 - Creating userslice : addUser, removeUser
 - sending user info to redux store
+- implementing signout
+- update profile
+- bug fix: displayname after signed up for first time
 
 # Features for a logged in user
 
