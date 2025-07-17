@@ -11,14 +11,30 @@
 - Header
 - login form
 
-# NetflixGPT Features
+# NetflixGPT
 
-# for a logged in user
+- vite config
+- tailwind config
+- Header
+- Routing
+- Login form
+- Signup form
+- form validation
+- using useRef hook
+- firebase setup
+- Firebase deployment
+- Creating signup user in firebase
+- Creating sign in
+- Setting up redux store
+- Creating userslice : addUser, removeUser
+- sending user info to redux store
+
+# Features for a logged in user
 
 - Browse page (After authentication)
   - Header
   - Main movie
-    - Tailer in background
+    - Trailer in background
     - Title and description
     - Movie suggestions
       - Movie lists
