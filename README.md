@@ -31,6 +31,9 @@
 - implementing signout
 - update profile
 - bug fix: displayname after signed up for first time
+- bugfix: restrict access to browse page when not loggedin
+- unsubscribe when component unmounts
+- Creating constants
 
 # Features for a logged in user
 
