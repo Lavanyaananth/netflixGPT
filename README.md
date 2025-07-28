@@ -34,6 +34,9 @@
 - bugfix: restrict access to browse page when not loggedin
 - unsubscribe when component unmounts
 - Creating constants
+- TMDB API setup
+- Get data from API
+- Create movie slice
 
 # Features for a logged in user
 

@@ -3,7 +3,8 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+  // lot of things will happen twice, react does extra rendering
+  // <StrictMode>
+  <App />
+  // </StrictMode>
 );
