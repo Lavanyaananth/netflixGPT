@@ -37,6 +37,8 @@
 - TMDB API setup
 - Get data from API
 - Create movie slice
+- Creating custom hook for nowplaying movie
+- creating hook for poster movie trailer
 
 # Features for a logged in user
 
