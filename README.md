@@ -38,7 +38,10 @@
 - Get data from API
 - Create movie slice
 - Creating custom hook for nowplaying movie
-- creating hook for poster movie trailer
+- adding trailer in movie slice and store
+- creating custom hook for poster movie trailer
+- styling the banner container
+- Movielists container - nowplaying ,top rated,upcoming
 
 # Features for a logged in user
 

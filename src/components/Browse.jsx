@@ -1,14 +1,18 @@
 import Header from "./Header";
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
 import BannerContainer from "./BannerContainer";
-import MovieListsContainer from "./MovieListsContainer";
+import ListsContainer from "./ListsContainer";
+import useTopRated from "../hooks/useTopRated";
+import useUpcoming from "../hooks/useUpcoming";
 const Browse = () => {
   useNowPlayingMovies();
+  useTopRated();
+  useUpcoming();
   return (
     <>
       <Header></Header>
       <BannerContainer></BannerContainer>
-      <MovieListsContainer></MovieListsContainer>
+      <ListsContainer></ListsContainer>
     </>
   );
 };

@@ -48,7 +48,7 @@ const Header = () => {
     return () => unsubscribe();
   }, []);
   return (
-    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black  to-transparent z-10 flex justify-between text-white">
+    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between text-white">
       <img src={LOGO} alt="logo" className="w-44"></img>
       {user && (
         <div className="flex p-2">
