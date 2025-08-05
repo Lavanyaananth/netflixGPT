@@ -5,10 +5,12 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { addUser, removeUser } from "../utils/userSlice";
 import { LOGO, AVATAR } from "../utils/constants";
+import { toggleGptSearchView } from "../utils/gptSlice";
 const Header = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const user = useSelector((store) => store.user);
+  const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
   const handleSignout = () => {
     console.log("signedout");
     signOut(auth)
@@ -47,11 +49,20 @@ const Header = () => {
     });
     return () => unsubscribe();
   }, []);
+  const handleGPTSerachClick = () => {
+    dispatch(toggleGptSearchView());
+  };
   return (
     <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between text-white">
       <img src={LOGO} alt="logo" className="w-44"></img>
       {user && (
         <div className="flex p-2">
+          <button
+            className="px-4 h-12 mx-6 bg-red-700 rounded-lg"
+            onClick={handleGPTSerachClick}
+          >
+            GPT Search
+          </button>
           <img src={AVATAR} alt="user" className="w-12 h-12  pr-2"></img>
           <h3 className="pt-4">Hi, {user?.displayName}</h3>
           <button className="pl-4" onClick={handleSignout}>

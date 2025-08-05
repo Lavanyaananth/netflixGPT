@@ -42,6 +42,9 @@
 - creating custom hook for poster movie trailer
 - styling the banner container
 - Movielists container - nowplaying ,top rated,upcoming
+- GPT search feature
+- GPT search bar
+- GPT movie suggestions
 
 # Features for a logged in user
 
