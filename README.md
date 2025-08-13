@@ -45,6 +45,7 @@
 - GPT search feature
 - GPT search bar
 - GPT movie suggestions
+- Building language constants
 
 # Features for a logged in user
 
