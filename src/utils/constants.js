@@ -19,3 +19,4 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "tamil", name: "Tamil" },
   { identifier: "spanish", name: "Spanish" },
 ];
+export const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;

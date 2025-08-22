@@ -45,7 +45,10 @@
 - GPT search feature
 - GPT search bar
 - GPT movie suggestions
-- Building language constants
+- Building language constants. multi language support on gpt search page
+- exploring about open ai
+- exploring gemini ai
+- doing search with gemini ai api and integrating it with gpt search bar
 
 # Features for a logged in user
 
